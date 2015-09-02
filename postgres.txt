@@ -40,3 +40,6 @@ INSERT INTO hello(
 
 
   to list all users ---- \du
+
+
+  to check version ----SELECT version();
