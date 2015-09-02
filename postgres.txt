@@ -31,3 +31,6 @@ INSERT INTO hello(
 
     SELECT name
   FROM hello offset 1 limit 1;
+
+
+  to view all tables --- \dt
