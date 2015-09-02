@@ -1,0 +1,13 @@
+ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C9D8B80B
+ sudo add-apt-repository "deb [arch=amd64] https://osquery-packages.s3.amazonaws.com/trusty trusty main"
+ sudo apt-get update
+ sudo apt-get install osquery
+
+
+osqueryi -> to enter 
+
+.exit    -> to exit 
+
+osquery> select*from ------(crontab);   --> used to get cron job details 
+
+
