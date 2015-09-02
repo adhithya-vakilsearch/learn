@@ -82,3 +82,11 @@ dictionary = { 'cat' => 'animal1', 'dog' => 'animal2' , 'fish' => 'water'  }
 puts dictionary.size
 
 puts dictionary['dog']
+
+
+x = 1
+while x < 100
+puts x
+x = x * 2
+end
+
