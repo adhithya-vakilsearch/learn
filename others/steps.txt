@@ -1,0 +1,17 @@
+ git config --global user.email "adhithya@vakilsearch.com"
+  git config --global user.name "adhithya"
+
+
+
+ssh-keygen -t rsa -b 4096 -C "adhithya@vakilsearch.com"
+
+
+
+git status
+git add filename.ext
+
+git commit -m "reason or explanation for the commit"
+
+
+
+git push orign master
