@@ -69,3 +69,11 @@ puts "b" > "r"
 
 
 puts "It's a #{"nice " * 5}world"
+
+
+puts "Test".swapcase
+
+puts "thisaaaa is a tieisit".gsub('i', '')
+
+
+"123456789".scan(/./) { |numbers| puts numbers  }
