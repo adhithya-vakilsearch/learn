@@ -1,0 +1,33 @@
+postgres
+
+
+CREATE TABLE hello
+(
+  name character varying
+)
+WITH (
+  OIDS=FALSE
+);
+
+INSERT INTO hello(
+            name)
+    VALUES ('dell');
+
+INSERT INTO hello(
+            name)
+    VALUES ('anand');
+
+
+    UPDATE hello
+   SET name='ravi'
+ WHERE name='dell';
+
+
+ SELECT name
+  FROM hello;
+
+  SELECT name
+  FROM hello limit 1;
+
+    SELECT name
+  FROM hello offset 1 limit 1;
