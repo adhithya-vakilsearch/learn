@@ -76,4 +76,9 @@ puts "Test".swapcase
 puts "thisaaaa is a tieisit".gsub('i', '')
 
 
-"123456789".scan(/./) { |numbers| puts numbers  }
+"123456789".scan(/./) { |numbrs| puts numbrs  }
+
+dictionary = { 'cat' => 'animal1', 'dog' => 'animal2' , 'fish' => 'water'  }
+puts dictionary.size
+
+puts dictionary['dog']
