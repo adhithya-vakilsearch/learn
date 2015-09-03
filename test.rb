@@ -158,7 +158,17 @@ end
 x = AllVowels.new
 x.each { |v| puts v }
 
+x=485
 
-x=45
-puts x 
+puts x
+
+x=12 
+y=31
+z =  x+y 
+puts z 
+
+
+
+r = RedCloth.new("this is a *test* of _using RedCloth_")
+puts r.to_html
 
