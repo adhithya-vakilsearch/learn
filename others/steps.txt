@@ -6,12 +6,14 @@
 ssh-keygen -t rsa -b 4096 -C "adhithya@vakilsearch.com"
 
 
-
+----- to upload on github 
 git status
 git add filename.ext
-
 git commit -m "reason or explanation for the commit"
-
-
-
 git push origin master
+
+----to clone from github website 
+
+mkdir example
+cd example
+git clone ( clone url from github website ) 

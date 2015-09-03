@@ -119,17 +119,28 @@ puts"asd dasj  dfaj".split.length
 
 text = %q{ 
 This is a test of
-paragraph one.
+one.
 
 
 
 This is a test of
-paragraph two
+two
 
 
 
 This is a test of
-paragraph three.
+three.
 }
 puts text.split(/\n\n\n/).length
+
+
+puts "sublime text "
+.gsub(/s/,'q')
+
+def perimeter_of_square(side_length)
+side_length * 4
+end
+
+puts perimeter_of_square(2)
+
 
