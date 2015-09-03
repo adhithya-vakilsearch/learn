@@ -90,3 +90,46 @@ puts x
 x = x * 2
 end
 
+rice_on_square = 1
+64.times do |square|  
+puts "On square #{square + 1} are #{rice_on_square} g"
+rice_on_square *= 2
+end
+
+current_situation = "good"
+puts "Everything is fine" if current_situation == "good"
+puts "PANIC!" if current_situation == "bad"
+
+
+puts 10+1
+
+puts "10"+"1"
+
+x = 2
+print "This application is running okay if 2 + 2 = #{x + x}"
+
+
+puts "gud noon ".gsub(/o/,'a')
+
+
+
+puts"asd dasj  dfaj".split.length
+
+
+
+text = %q{ 
+This is a test of
+paragraph one.
+
+
+
+This is a test of
+paragraph two
+
+
+
+This is a test of
+paragraph three.
+}
+puts text.split(/\n\n\n/).length
+
