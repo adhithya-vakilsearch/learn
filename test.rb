@@ -128,6 +128,9 @@ two
 
 
 
+
+
+
 This is a test of
 three.
 }
@@ -141,6 +144,21 @@ def perimeter_of_square(side_length)
 side_length * 4
 end
 
-puts perimeter_of_square(2)
+puts perimeter_of_square(2) 
 
+
+
+class AllVowels
+@@vowels = %w{a e i o u }
+def each
+@@vowels.each { |v| yield v }
+end
+end
+
+x = AllVowels.new
+x.each { |v| puts v }
+
+
+x=45
+puts x 
 
