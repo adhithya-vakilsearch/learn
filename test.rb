@@ -144,7 +144,7 @@ def perimeter_of_square(side_length)
 side_length * 4
 end
 
-puts perimeter_of_square(2) 
+puts perimeter_of_square(2) git cd
 
 
 
@@ -169,6 +169,4 @@ puts z
 
 
 
-r = RedCloth.new("this is a *test* of _using RedCloth_")
-puts r.to_html
 
