@@ -1,0 +1,21 @@
+CREATE TABLE aphcaa (
+name varchar,
+address text,
+email varchar,
+mobile varchar,
+phone varchar,
+blood varchar
+);
+
+
+//////////////////////////////////
+
+open the psql window 
+
+make a query page 
+
+run the above 
+
+/////////////////////////////////
+
+
