@@ -1,0 +1,33 @@
+puts "called"
+
+require 'pg'
+require 'json'
+
+conn=PGconn.connect( :dbname=>"crawled_data", :user=>"adhithya")
+	Dir.foreach("results/aphcaa/") do |file|
+		if file["json"] == "json"
+			path = "results/aphcaa/#{file}"
+			fi = File.open(path,"r").read.gsub("'","&quot;")
+				a = JSON.parse(fi)
+
+
+conn.exec("INSERT INTO aphcaa (name, address, email, mobile , phone , blood ) VALUES ( '#{a["name"]}', '#{a["address"]}', '#{a["email"]}', '#{a["mobile"]}', '#{a["phone"]}', '#{a["blood "]}')")
+
+
+
+
+	end
+end
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+check the db name and table ( create differnet table ) 
+
+check the path 
+
+change the connection rows 
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
