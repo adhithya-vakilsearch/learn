@@ -12,8 +12,16 @@ git add filename.ext
 git commit -m "reason or explanation for the commit"
 git push origin master
 
+
+------ to download from github 
+
+git pull origin master 
+
 ----to clone from github website 
 
 mkdir example
 cd example
 git clone ( clone url from github website .)
+
+
+
