@@ -1,0 +1,3 @@
+psql db location 
+
+\var\lib\postgresql\9.3\main 
