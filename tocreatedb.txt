@@ -1,0 +1,4 @@
+To create a new database:
+
+CREATE DATABASE lusiadas;
+
