@@ -1,0 +1,36 @@
+puts "called"
+
+require 'pg'
+require 'json'
+
+conn=PGconn.connect( :dbname=>"crawled_data", :user=>"adhithya")
+
+	Dir.foreach("results/aphcaa/") do |file|
+		if file["json"] == "json"
+			path = "results/aphcaa/#{file}"
+			fi = File.open(path,"r").read.gsub("'","&quot;")
+				a = JSON.parse(fi)
+
+
+puts a["name"]
+puts a["address"]
+puts a["email"]
+puts a["mobile"]
+puts a["phone"]
+puts a["blood"]
+
+
+	end
+end
+
+
+//////////////////////////////////////// 
+
+run the above to see the results in terminal\cmd prompt 
+
+( it ll shows the results in the cmd prompt) 
+
+/////////////////////////////////////////////
+
+
+
