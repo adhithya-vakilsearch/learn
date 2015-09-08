@@ -1,0 +1,6 @@
+Open nautilus as root: Alt+F2 and type
+Code:
+
+gksu nautilus
+
+
