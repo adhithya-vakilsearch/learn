@@ -1,10 +1,12 @@
-download cmd from github     ( cmd - > git pull origin master ) 
+download scripts from github to local machine      ( cmd - > git pull origin master ) 
 
 run the ruby script ( check json files are genrating )  
 
-if so create table according to the json ( script there ) 
+if so create table according to the json file ( script there { create table } ) 
 
-run json to db script ( script there ) 
+json to db script ( script there ) 
+
+
 
 
 
