@@ -1,0 +1,15 @@
+
+
+download files from github 
+
+run the crawl script from the downloaded content  ( make sure the json files generated in the path ) 
+
+make table by seeing the coloums in the output  ( script is there ) 
+
+run json to db ( script is there ) 
+
+
+
+
+
+
