@@ -43,3 +43,37 @@ INSERT INTO hello(
 
 
   to check version ----SELECT version();
+
+  to check all databse ----\list 
+
+to check tableplaces -----\db
+
+to check object description ------ \dds
+
+to swich another database -----  \connect DBNAME
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+select query 
+
+
+SELECT sl_no,
+ roll_no,
+ fathers_name
+FROM allahabad;
+LIMIT 10;
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\
+
+SELECT sl_no,
+ roll_no,
+ fathers_name
+FROM allahabad;
+ORDER BY
+fathers_name ASC;
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
