@@ -50,7 +50,9 @@ to check tableplaces -----\db
 
 to check object description ------ \dds
 
-to swich another database -----  \connect DBNAME
+to swich another database -----  \connect dbname
+
+
 
 
 
