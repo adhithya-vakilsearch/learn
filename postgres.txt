@@ -1,4 +1,4 @@
-postgres
+postgres  {{http://www.postgresqltutorial.com/}}
 
 
 CREATE TABLE hello
@@ -32,7 +32,7 @@ INSERT INTO hello(
     SELECT name
   FROM hello offset 1 limit 1;
 
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
   to view all tables --- \dt
@@ -51,9 +51,6 @@ to check tableplaces -----\db
 to check object description ------ \dds
 
 to swich another database -----  \connect dbname
-
-
-
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
