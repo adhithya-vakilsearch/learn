@@ -126,11 +126,6 @@ one.
 This is a test of
 two
 
-
-
-
-
-
 This is a test of
 three.
 }
@@ -140,33 +135,22 @@ puts text.split(/\n\n\n/).length
 puts "sublime text "
 .gsub(/s/,'q')
 
-def perimeter_of_square(side_length)
+def perimeter_of_square(side_length)cd\
 side_length * 4
 end
 
-puts perimeter_of_square(2) git cd
-
-
-
-class AllVowels
-@@vowels = %w{a e i o u }
-def each
-@@vowels.each { |v| yield v }
-end
-end
-
-x = AllVowels.new
-x.each { |v| puts v }
-
-x=485
-
-puts x
 
 x=12 
 y=31
 z =  x+y 
 puts z 
 
+class Dog
+def talk
+puts "Woof!"
+end
+end
 
-
+my_dog = Dog.new
+my_dog.talk
 
