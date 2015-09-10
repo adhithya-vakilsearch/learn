@@ -1,3 +1,6 @@
 psql db location 
 
+
+SHOW data_directory --- in psql 
+
 \var\lib\postgresql\9.3\main 
