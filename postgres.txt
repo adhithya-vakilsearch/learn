@@ -53,6 +53,9 @@ to check object description ------ \dds
 to swich another database -----  \connect dbname
 
 selecting a particular content by limit ------- SELECT * FROM llp_companies ORDER BY id LIMIT 1;
+
+
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 select query 
@@ -74,4 +77,21 @@ ORDER BY
 fathers_name ASC;
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+SELECT city,pin FROM companies ORDER BY city ASC limit 10000 ;
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+TRIGGER OPTION:
+
+CREATE  TRIGGER trigger_name [before|after|instead of ] event_name
+ON table_name
+[
+
+---trigger logic
+
+];
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
