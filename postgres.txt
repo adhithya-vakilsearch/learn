@@ -52,7 +52,7 @@ to check object description ------ \dds
 
 to swich another database -----  \connect dbname
 
-
+selecting a particular content by limit ------- SELECT * FROM llp_companies ORDER BY id LIMIT 1;
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 select query 
@@ -63,7 +63,6 @@ SELECT sl_no,
  fathers_name
 FROM allahabad;
 LIMIT 10;
-
 
 \\\\\\\\\\\\\\\\\\\\\\\\\
 
