@@ -55,6 +55,10 @@ to swich another database -----  \connect dbname
 selecting a particular content by limit ------- SELECT * FROM llp_companies ORDER BY id LIMIT 1;
 
 
+to select particular like statements -------- -----SELECT * FROM COMPANY WHERE NAME LIKE 'Pa%';
+
+to delete records ----------DELETE FROM COMPANY WHERE ID = 2;
+
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -83,9 +87,12 @@ SELECT city,pin FROM companies ORDER BY city ASC limit 10000 ;
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+
+
+
 TRIGGER OPTION:
 
-CREATE  TRIGGER trigger_name [before|after|instead of ] event_name
+CREATE TRIGGER [before|after|instead of ] event_name
 ON table_name
 [
 
