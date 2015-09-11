@@ -35,16 +35,15 @@ INSERT INTO hello(
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-  to view all tables --- \dt
+to view all tables --- \dt
 
 
+to list all users ---- \du
 
-  to list all users ---- \du
 
+to check version ----SELECT version();
 
-  to check version ----SELECT version();
-
-  to check all databse ----\list 
+to check all databse ----\list 
 
 to check tableplaces -----\db
 
@@ -52,12 +51,31 @@ to check object description ------ \dds
 
 to swich another database -----  \connect dbname
 
-selecting a particular content by limit ------- SELECT * FROM llp_companies ORDER BY id LIMIT 1;
+to select a particular content by limit ------- SELECT * FROM llp_companies ORDER BY id LIMIT 1;
+
+where statements   -------- SELECT * FROM companies WHERE city = CHENNAI;
+
+to select particular ( more likely ) statements ------- SELECT * FROM Companies WHERE pin  LIKE '600045%';
+
+to select  ---------------------------SELECT * FROM allahabad WHERE sl_no='6456';
+
+to delete records ----------DELETE FROM allahabad WHERE chanber_address = '46 HC ';
+
+to insert records --------INSERT INTO hello(name) VALUES ('anand');
 
 
-to select particular like statements -------- -----SELECT * FROM COMPANY WHERE NAME LIKE 'Pa%';
+to drop a database --------- DROP DATABASE [ IF EXISTS ] adhithya
 
-to delete records ----------DELETE FROM COMPANY WHERE ID = 2;
+to drop a table ------ DROP TABLE table_name;
+
+to create schema ----------  create schema myschema; / to drop ------- DROP SCHEMA myschema;
+
+to insert  -----------INSERT INTO TABLE_NAME (column1, column2, column3,...columnN)]
+VALUES (value1, value2, value3,...valueN);
+
+
+to update ---------------- UPDATE allahabad SET fathers_name = 'abc 'WHERE sl_no='6456';
+
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -80,25 +98,40 @@ FROM allahabad;
 ORDER BY
 fathers_name ASC;
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\
-
+\
 
 SELECT city,pin FROM companies ORDER BY city ASC limit 10000 ;
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
+\
 
 
 TRIGGER OPTION:
 
 CREATE TRIGGER [before|after|instead of ] event_name
 ON table_name
+
 [
 
----trigger logic
+---trigger logic----
 
 ];
 
+DROP TRIGER : 
+
+DROP TRIGGER trigger_name;
+
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+SELECT * FROM companies WHERE city = CHENNAI;
+
+INSERT INTO allahabad (dell, amazon)]
+VALUES (1, 2);
+
+
+UPDATE allahabad SET residence_address = aa WHERE sl_no = 583;
+
+
+
+
+UPDATE allahabad SET fathers_name = 'a 'WHERE sl_no='6456';
