@@ -59,6 +59,8 @@ to select particular ( more likely ) statements ------- SELECT * FROM Companies 
 
 to select  ---------------------------SELECT * FROM allahabad WHERE sl_no='6456';
 
+to delete full records in table ----------- TRUNCATE TABLE table_name;
+
 to delete records ----------DELETE FROM allahabad WHERE chanber_address = '46 HC ';
 
 to insert records --------INSERT INTO hello(name) VALUES ('anand');
@@ -75,6 +77,8 @@ VALUES (value1, value2, value3,...valueN);
 
 
 to update ---------------- UPDATE allahabad SET fathers_name = 'abc 'WHERE sl_no='6456';
+
+
 
 
 
